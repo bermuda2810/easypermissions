@@ -48,11 +48,12 @@ public abstract class PermissionHelper<T> {
     }
 
     private boolean shouldShowRationale(@NonNull String... perms) {
-        for (String perm : perms) {
-            if (shouldShowRequestPermissionRationale(perm)) {
-                return true;
-            }
-        }
+//        for (String perm : perms) {
+//            if (shouldShowRequestPermissionRationale(perm)) {
+//                return true;
+//            }
+//        }
+//        return false;
         return false;
     }
 
